@@ -28,6 +28,7 @@ body,html {
 
 .test {
 	background: #F15A29;
+	padding-bottom: 25px;
 }
 #happyHour {
 	overflow-x: hidden;
@@ -37,6 +38,12 @@ body,html {
 	width: 100%;
 	padding: 0;
 	margin: 0 auto;
+}
+
+
+.btn-outline-info {
+	color:#F15A29;
+	border: 1px solid #F15A29;
 }
 
 #fastFood {
@@ -71,15 +78,22 @@ body,html {
 
 .generalFoodHeader {
 	background:rgba(0,0,0,0.4);
-	border:1px solid rgba(0,0,0,0.1);
+	border-right:1px solid rgba(0,0,0,0.1);
+	margin:0;
 }
 
 .color-weight {
 	color:#F15A29;
 }
 
+.generalFoodHeader :hover {
+	color:#F15A29;
+	background-color:#fff;
+	margin: 0;
+}
+
+
 .generalFoodImage {
-	padding: 0;
-	margin-right:auto; 
+	padding-top: 30px; 
 }
 
